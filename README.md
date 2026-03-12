@@ -1,41 +1,34 @@
-# Predicting Airline Financial Losses During Aviation Disruptions
+```markdown
+# Machine Learning Projects
 
-## Project Overview
-This project builds a machine learning model to predict airline daily financial losses during disruption events using operational indicators such as cancelled flights, rerouted flights, additional fuel costs, and passengers impacted.
+This folder contains a collection of machine learning projects I have worked on under supervised learning. The projects focus on building models that learn from labeled data to make predictions or classifications. They cover both numerical prediction problems (regression) and categorical prediction problems (classification) using different algorithms.
 
-## Objective
-To develop a regression model that predicts airline daily financial losses and identify the operational factors contributing most to those losses.
+## Regression (Numerical Prediction)
+The regression projects in this folder focus on predicting continuous numerical values. These models learn the relationship between input features and a numerical outcome.  
+Algorithms explored include:
+- Linear Regression
+- Decision Tree Regressor
+- Random Forest Regressor
 
-## Dataset
-Global Civil Aviation Disruption Dataset.
+These projects demonstrate how different regression models perform when predicting numerical outcomes and how model performance can be evaluated and compared.
 
-Features include:
-- airline
-- country
-- cancelled_flights
-- rerouted_flights
-- additional_fuel_cost_usd
-- passengers_impacted
+## Classification (Categorical Prediction)
+The classification projects focus on predicting **categorical outcomes** or labels. In these cases, the goal of the model is to assign data points to the correct category based on the input features.  
+Algorithms explored include:
+- Logistic Regression
+- K-Nearest Neighbors (KNN)
+- Decision Tree Classifier
+- Random Forest Classifier
 
-Target Variable:
-- estimated_daily_loss_usd
+These projects explore how different classification algorithms work and how they can be applied to real-world datasets to solve classification problems.
 
-## Model Used
-Decision Tree Regressor
+## Purpose of This Repository
+The goal of this folder is to document my hands-on work with supervised machine learning algorithms. Each project demonstrates key steps in the machine learning workflow, including:
+- Data preprocessing and cleaning
+- Exploratory data analysis
+- Model training
+- Model evaluation
+- Performance comparison between algorithms
 
-## Model Performance
-R² Score: 0.856  
-RMSE: 131,475
-
-## Tools & Libraries
-- Python
-- Pandas
-- NumPy
-- Scikit-Learn
-- Matplotlib
-- Seaborn
-
-## Key Insights
-- Passenger impact strongly correlates with financial losses
-- Flight cancellations significantly increase operational costs
-- Rerouted flights increase fuel expenditure
+This collection reflects my practical experience applying supervised learning techniques to both regression and classification tasks.
+```
